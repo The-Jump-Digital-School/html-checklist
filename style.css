@@ -1,0 +1,65 @@
+html {
+}
+
+body {
+}
+
+.obsolete {
+  background-color: lightcoral !important;
+}
+
+.unimportant {
+  background-color: peachpuff;
+}
+
+.important {
+  background-color: lightgoldenrodyellow;
+}
+
+.essential {
+  background-color: lightgreen;
+}
+
+code.tag::before {
+  content: "<";
+}
+
+code.tag::after {
+  content: ">";
+}
+
+table caption {
+  margin: 10px 0;
+  caption-side: bottom;
+}
+
+table caption span {
+  padding: 5px 7px;
+}
+
+table thead tr th {
+  background-color: lightseagreen;
+}
+
+table tbody tr th {
+  background-color: lightblue;
+}
+
+table thead tr th,
+table tbody tr th {
+  text-align: left;
+  margin: 10px 0;
+  padding: 5px 7px;
+}
+
+table tbody tr td {
+  padding: 5px 7px;
+}
+
+table tbody tr:nth-child(odd) td {
+  background-color: #efefef;
+}
+
+table tbody tr td:nth-child(2) {
+  text-align: center;
+}

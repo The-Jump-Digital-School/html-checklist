@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML Checklist</title>
+
+	<link type="text/css" href="./style.css" rel="stylesheet" />
+</head>
+
+<body>
+	<header>
+		<h1>HTML Checklist</h1>
+	</header>
+	<main>
+		<article>
+			<h1>How many tags do you understand?</h1>
+
+			<table>
+				<caption>
+					Hyper text markup -
+					<span class="obsolete">Obsolete</span>,
+					<span class="unimportant">Nice to know</span>,
+					<span class="important">Good to know</span>,
+					<span class="essential">Essential</span>
+				</caption>
+				<thead>
+					<tr>
+						<th scope="col">Tagname</th>
+						<th scope="col">Studied</th>
+						<th scope="col">Notes</th>
+					</tr>
+				</thead>
+
+				<tbody class="main">
+					<tr>
+						<th colspan="3">
+							Main/Root
+						</th>
+					</tr>
+					<tr>
+						<td>
+							<code class="tag">html</code>
+						</td>
+						<td>
+							<input type="checkbox" name="html" />
+						</td>
+						<td>
+							The HTML <code>&lt;html&gt;</code> element represents the root (top-level element)
+							of an HTML document, so it is also referred to as the root element.
+							All other elements must be descendants of this element.
+						</td>
+					</tr>
+				</tbody>
+
+				<tbody class="meta">
+					<tr>
+						<th colspan="3">
+							Document Metadata
+						</th>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag">head</code>
+						</td>
+						<td>
+							<input type="checkbox" name="head" />
+						</td>
+						<td>
+							The HTML <code class="tag">head</code> element contains machine-readable information
+							(metadata) about the document, like itstitle,scripts, andstyle sheets.
+						</td>
+					</tr>
+
+					<tr class="unimportant">
+						<td>
+							<code class="tag">base</code>
+						</td>
+						<td>
+							<input type="checkbox" name="base" />
+						</td>
+						<td>
+							The HTML <code class="tag">base</code> element specifies the base URL to use for
+							all relative URLs contained within a document. There can be only one
+							<code class="tag">base</code> element in a document.
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag">link</code>
+						</td>
+						<td>
+							<input type="checkbox" name="link" />
+						</td>
+						<td>
+							The HTML External Resource Link element (<code class="tag">link</code>) specifies
+							relationships between the current document and an external resource. This element
+							is most commonly used to link tostylesheets, but is also used to establish site
+							icons (both "favicon" style icons and icons for the home screen and apps on
+							mobile devices) among other things.
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag">meta</code>
+						</td>
+						<td>
+							<input type="checkbox" name="meta" />
+						</td>
+						<td>
+							The HTML <code class="tag">meta</code> represents metadata that cannot be represented
+							by other HTML meta-related elements, like <code class="tag">base</code>,
+							<code class="tag">link</code>, <code class="tag">script</code>,
+							<code class="tag">style</code>, or <code class="tag">title</code>.
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag">style</code>
+						</td>
+						<td>
+							<input type="checkbox" name="style" />
+						</td>
+						<td>
+							The HTML <code class="tag">style</code> element contains style information for a
+							document, or part of a document.
+						</td>
+					</tr>
+				</tbody>
+
+				<tbody class="body">
+					<tr>
+						<th colspan="3">
+							Body / Sectioning Root
+						</th>
+					</tr>
+					<tr>
+						<td>
+							<code class="tag">body</code>
+						</td>
+						<td>
+							<input type="checkbox" name="body" />
+						</td>
+						<td>
+							The HTML <code class="tag">body</code> element represents the content of an HTML
+							document. There can be only one <code class="tag">body</code> element in a document.
+						</td>
+					</tr>
+				</tbody>
+
+				<tbody class="sectioning">
+					<tr>
+						<th colspan="3">
+							Content Sectioning
+						</th>
+					</tr>
+					<tr>
+						<td>
+							<code class="tag">address</code>
+						</td>
+						<td>
+							<input type="checkbox" name="address" />
+						</td>
+						<td>
+							The HTML <code class="tag">address</code> element indicates that the enclosed
+							HTML provides contact information for a person or people, or for an organization.
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<code class="tag">article</code>
+						</td>
+						<td>
+							<input type="checkbox" name="article" />
+						</td>
+						<td>
+							The HTML <code class="tag">article</code> element represents a self-contained
+							composition in a document, page, application, or site, which is intended to be
+							independently distributable or reusable (e.g., in syndication).
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<code class="tag">aside</code>
+						</td>
+						<td>
+							<input type="checkbox" name="aside" />
+						</td>
+						<td>
+							The HTML <code class="tag">aside</code> element represents a portion of a
+							document whose content is only indirectly related to the document's main content.
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<code class="tag">footer</code>
+						</td>
+						<td>
+							<input type="checkbox" name="footer" />
+						</td>
+						<td>
+							The HTML <code class='tag'>footer</code> element represents a footer for its
+							nearestsectioning contentorsectioning rootelement. A footer typically
+							contains information about the author of the section, copyright data or links
+							to related documents.
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<code class="tag">header</code>
+						</td>
+						<td>
+							<input type="checkbox" name="header" />
+						</td>
+						<td>
+							The HTML <code class="tag">header</code> element represents introductory
+							content, typically a group of introductory or navigational aids.
+							It may contain some heading elements but also a logo, a search form,
+							an author name, and other elements.
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag">h1</code>, <code class="tag">h2</code>, <code class="tag">h3</code>,
+							<code class="tag">h4</code>, <code class="tag">h5</code>, <code class="tag">h6</code>
+						</td>
+						<td>
+							<input type="checkbox" name="header" />
+						</td>
+						<td>
+							The HTML <code class="tag">h1</code> -- <code class="tag">h6</code> elements
+							represent six levels of section headings. <code class="tag">h1</code> is
+							the highest section level and <code class="tag">h6</code> is the lowest.
+						</td>
+					</tr>
+				</tbody>
+
+				<tbody class="text-content">
+					<tr>
+						<th colspan="3">
+							Text Content
+						</th>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag">blockquote</code>
+						</td>
+						<td>
+							<input type="checkbox" name="blockquote" />
+						</td>
+						<td>
+							The HTML <code class="tag">blockquote</code> Element (or HTML Block Quotation Element)
+							indicates that the enclosed text is an extended quotation. Usually, this is rendered
+							visually by indentation (seeNotesfor how to change it). A URL for the source of the
+							quotation may be given using the <code>cite</code> attribute, while a text
+							representation of the source can be given using the
+							<code class="tag">cite</code> element.
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag">dd</code>
+						</td>
+						<td>
+							<input type="checkbox" name="dd" />
+						</td>
+						<td>
+							The HTML <code class="tag">dd</code> element provides the description, definition,
+							or value for the preceding term (<code class="tag">dt</code>) in a
+							description list (<code class="tag">dl</code>).
+						</td>
+					</tr>
+
+					<tr class="obsolete">
+						<td>
+							<code class="tag">dir</code>
+						</td>
+						<td>
+							<input type="checkbox" name="dir" />
+						</td>
+						<td>
+							The <span class="obsolete">obsolete</span> HTML Directory element
+							(<code class="tag">dir</code>) is used as a container for a
+							directory of files and/or folders, potentially with styles and
+							icons applied by theuser agent.
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag">div</code>
+						</td>
+						<td>
+							<input type="checkbox" name="div" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag">dl</code>
+						</td>
+						<td>
+							<input type="checkbox" name="dl" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag">dt</code>
+						</td>
+						<td>
+							<input type="checkbox" name="dt" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag">figure</code>
+						</td>
+						<td>
+							<input type="checkbox" name="figure" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag">figcaption</code>
+						</td>
+						<td>
+							<input type="checkbox" name="figcaption" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag">hr</code>
+						</td>
+						<td>
+							<input type="checkbox" name="hr" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag">li</code>
+						</td>
+						<td>
+							<input type="checkbox" name="li" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag">main</code>
+						</td>
+						<td>
+							<input type="checkbox" name="main" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag">ol</code>
+						</td>
+						<td>
+							<input type="checkbox" name="ol" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag">p</code>
+						</td>
+						<td>
+							<input type="checkbox" name="p" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag">pre</code>
+						</td>
+						<td>
+							<input type="checkbox" name="pre" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag">ul</code>
+						</td>
+						<td>
+							<input type="checkbox" name="ul" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+				</tbody>
+
+				<tbody class="text-semantics">
+					<tr>
+						<th colspan="3">
+							Inline Text Semantics
+						</th>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag"></code>
+						</td>
+						<td>
+							<input type="checkbox" name="" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag"></code>
+						</td>
+						<td>
+							<input type="checkbox" name="" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag"></code>
+						</td>
+						<td>
+							<input type="checkbox" name="" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag"></code>
+						</td>
+						<td>
+							<input type="checkbox" name="" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag"></code>
+						</td>
+						<td>
+							<input type="checkbox" name="" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag"></code>
+						</td>
+						<td>
+							<input type="checkbox" name="" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag"></code>
+						</td>
+						<td>
+							<input type="checkbox" name="" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag"></code>
+						</td>
+						<td>
+							<input type="checkbox" name="" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag"></code>
+						</td>
+						<td>
+							<input type="checkbox" name="" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag"></code>
+						</td>
+						<td>
+							<input type="checkbox" name="" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag"></code>
+						</td>
+						<td>
+							<input type="checkbox" name="" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag"></code>
+						</td>
+						<td>
+							<input type="checkbox" name="" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag"></code>
+						</td>
+						<td>
+							<input type="checkbox" name="" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag"></code>
+						</td>
+						<td>
+							<input type="checkbox" name="" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag"></code>
+						</td>
+						<td>
+							<input type="checkbox" name="" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag"></code>
+						</td>
+						<td>
+							<input type="checkbox" name="" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag"></code>
+						</td>
+						<td>
+							<input type="checkbox" name="" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag"></code>
+						</td>
+						<td>
+							<input type="checkbox" name="" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag"></code>
+						</td>
+						<td>
+							<input type="checkbox" name="" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<code class="tag"></code>
+						</td>
+						<td>
+							<input type="checkbox" name="" />
+						</td>
+						<td>
+							<!--  -->
+						</td>
+					</tr>
+				</tbody>
+
+				<tbody class="multimedia">
+					<tr>
+						<th colspan="3">
+							Image and Multimedia
+						</th>
+					</tr>
+				</tbody>
+
+				<tfoot>
+
+				</tfoot>
+			</table>
+		</article>
+	</main>
+</body>
+
+</html>
